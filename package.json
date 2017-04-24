@@ -6,8 +6,10 @@
   "author": "Jon Hemstreet <jon@hemstreet.io>",
   "license": "ISC",
   "dependencies": {
+    "cron": "^1.2.1",
     "q": "^1.5.0",
     "scrape-it": "^3.3.2",
+    "twilio": "^2.11.1",
     "underscore": "^1.8.3"
   }
 }

@@ -16,7 +16,7 @@ new CronJob('0 16 * * *', () => {
                         postsToday = penultimate.postsToday - last.postsToday,
                         ticker = last.ticker;
 
-                    if (postsToday > 50) {
+                    if (postsToday > 200) {
                         flaggedTickers.push({
                             ticker,
                             postsToday
